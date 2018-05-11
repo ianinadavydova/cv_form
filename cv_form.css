@@ -133,13 +133,17 @@ textarea:focus, input:focus, select {
         text-decoration: none;
     }
 
-a:hover {
-    color: red;
+a {
+    color: inherit;
 }
 
-a[href], input[type='button'], input[type='radio'], input[type='checkbox'], label[for], select, button {
-    cursor: pointer;
-}
+    a:hover {
+        color: red;
+    }
+
+    a[href], input[type='button'], input[type='radio'], input[type='checkbox'], label[for], select, button {
+        cursor: pointer;
+    }
 
 input[type=button] {
     display: inline-block;
